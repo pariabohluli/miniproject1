@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Byekan';
+    src: url("fonts/Byekan.ttf") format('truetype'),
+         url("fonts/Byekan.woff") format('woff');
+}
+@font-face {
+    font-family: 'lalezar';
+    src: url("fonts/lalezar.ttf") format("ttf"),
+    url("fonts/lalezar.woff") format('woff');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Byekan, serif;
+}
+.header{
+    background-image: url("images/background.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 675px;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+}
+.nav-list{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+}
+li a:hover{
+    color: yellow;
+}
+.header h1{
+    font-family: lalezar, serif;
+    font-size: 60px;
+    margin-top: 140px;
+}
+.text-color{
+    color: yellow;
+}
+.header p{
+    border: 1px solid white;
+    margin: 30px auto;
+    line-height: 55px;
+    border-radius: 20px;
+    width: 450px;
+    height: 55px;
+    background-color: rgba(0,0,0,0.5);
+}
+.members{
+    text-align: center;
+    padding: 50px 30px;
+}
+.members ul{
+    text-decoration: none;
+    padding: 0;
+    margin-top: 25px;
+}
+.member-item{
+    display: inline-block;
+    width: 350px;
+    margin: 20px;
+    box-shadow: 0 0 20px rgb(127, 131, 136);
+}
+.member-pic{
+    width: 100%;
+}
+.member-bio{
+    text-align: justify;
+    padding: 20px;
+}
+.member-name{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.about{
+    background-image: url("images/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 50px;
+    height: 700px;
+    background-color: #474747;
+    background-blend-mode: multiply;
+}
+.circle{
+    background-color: rgba(97, 97, 97, 0.5);
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 90px 120px;
+    color: white;
+    text-align: center;
+}
+.circle p{
+   padding-top: 30px;
+    text-align: justify;
+}
+.circle h2{
+    font-size: 35px;
+}
+.footer{
+    background-color: #b3b3b3;
+    text-align: center;
+    padding: 50px 0;
+}
+.socialmedia{
+    background-color: rgb(131, 135, 139);
+    width: auto;
+    padding: 5px 0;
+    margin: 10px 0 20px;
+}
+.socialmedia i{
+    font-size: 50px;
+    padding: 5px 15px;
+    color: #474747;
+}
